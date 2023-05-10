@@ -83,10 +83,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Custom files <span>-&gt;</span>
+            Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Lorem ipsum dolor
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
