@@ -17,4 +17,4 @@ jobs:
           openai_api_key: ${{ secrets.openai_api_key }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_pr_id: ${{ github.event.number }}
-          mode: patch # file or patch 
+          mode: file # file or patch 
