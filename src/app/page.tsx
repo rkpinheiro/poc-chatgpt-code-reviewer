@@ -7,6 +7,12 @@ const sum = (a: number, b: number) => {
 
 sum(1,2)
 
+const sub = (a: number, b: number) => {
+  return a - b
+}
+
+sub(1,2)
+
 export default function Home() {
   return (
     <main className={styles.main}>
