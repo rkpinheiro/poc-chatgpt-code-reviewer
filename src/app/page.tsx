@@ -1,6 +1,18 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+const sum = (a: number, b: number) => {
+  return a + b
+}
+
+sum(1,2)
+
+const sub = (a: number, b: number) => {
+  return a - b
+}
+
+sub(1,2)
+
 export default function Home() {
   return (
     <main className={styles.main}>
